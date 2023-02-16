@@ -125,6 +125,12 @@
    }
    /* Quick list */
 
+   /* Features */
+   .features .features-content h2 {
+      display: inline-block;
+   }
+   /* Features */
+
    /* Facts */
    .facts .achievements{
       display: block;
