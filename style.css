@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&family=Open+Sans&display=swap');
+:root{
+   --color-primary: rgba(255, 144, 14, 1);
+   --color-secondary: rgba(255, 144, 14, 0.1);
+   --color-grey: #727272;
+   --transition: all 0.3s ease-in-out;
+}
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
