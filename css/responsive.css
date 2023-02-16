@@ -56,6 +56,12 @@
       padding: 30px;
    }
    /* Facts */
+
+   /* Sponsors */
+   .sponsors .sponsors-img img{
+      width: 100px;
+   }
+   /* Sponsors */
 }
 
 @media (max-width: 576px) {
@@ -116,5 +122,21 @@
       margin-bottom: 15px;
       padding: 15px;
    }
+   .facts .achievements .single-achievement:last-child {
+      margin-bottom: 0;
+   }
    /* Facts */
+
+   /* Sponsors */
+   .sponsors .sponsors-img, .sponsors .sponsors-img img{
+      display: block;
+      margin: 0 auto;
+   }
+   .sponsors .sponsors-img{
+      padding: 0;
+   }
+   .sponsors .sponsors-img img{
+      padding: 10px 0;
+   }
+   /* Sponsors */
 }

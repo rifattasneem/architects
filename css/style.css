@@ -188,3 +188,19 @@ header{
    margin: 5px 0;
 }
 /* Facts */
+
+/* Sponsors */
+.sponsors .sponsors-content{
+   text-align: center;
+}
+.sponsors .sponsors-img{
+   display: flex;
+   justify-content: space-between;
+   padding: 20px 0;
+}
+.sponsors .sponsors-img img{
+   width: 140px;
+   object-fit: contain;
+   filter: grayscale(1);
+}
+/* Sponsors */
