@@ -204,3 +204,11 @@ header{
    filter: grayscale(1);
 }
 /* Sponsors */
+
+/* Footer */
+footer p{
+   background-color: var(--color-secondary);
+   padding: 20px;
+   text-align: center;
+}
+/* Footer */
