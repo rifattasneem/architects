@@ -1,0 +1,45 @@
+@media (max-width: 1200px) {
+   .container{
+      width: 700px;
+   }
+
+   /* Banner */
+   .banner .banner-content{
+      max-width: 80%;
+   }
+   .banner .banner-content h1{
+      font-size: 50px;
+   }
+   /* Banner */
+}
+
+@media (max-width: 576px) {
+   .container{
+      width: 90%;
+   }
+
+   /* Header */
+   .navbar {
+      display: block;
+      text-align: center;
+   }
+   .navbar ul {
+      display: block;
+   }
+   .navbar .navbar-brand h2, .navbar ul li{
+      margin-bottom: 15px;
+   }
+   /* Navber */
+
+   /* Banner */
+   .banner{
+      padding: 20px 0 50px;
+   }
+   .banner .banner-content{
+      max-width: 100%;
+   }
+   .banner .banner-content h1{
+      font-size: 40px;
+   }
+   /* Banner */
+}
