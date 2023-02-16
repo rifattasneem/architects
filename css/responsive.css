@@ -44,6 +44,18 @@
       padding: 20px;
    }
    /* Features */
+
+   /* Facts */
+   .facts .facts-content{
+      width: 100%;
+   }
+   .facts .achievements {
+      gap: 20px;
+   }
+   .facts .achievements .single-achievement {
+      padding: 30px;
+   }
+   /* Facts */
 }
 
 @media (max-width: 576px) {
@@ -95,4 +107,14 @@
       padding: 30px 0 0;
    }
    /* Quick list */
+
+   /* Facts */
+   .facts .achievements{
+      display: block;
+   }
+   .facts .achievements .single-achievement{
+      margin-bottom: 15px;
+      padding: 15px;
+   }
+   /* Facts */
 }
