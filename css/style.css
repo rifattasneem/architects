@@ -205,6 +205,39 @@ header{
 }
 /* Sponsors */
 
+/* Testimonial */
+.testimonial .reviews{
+   display: flex;
+   justify-content: space-between;
+   gap: 20px;
+}
+.testimonial .reviews .single-review{
+   padding: 25px;
+   background: #FFFFFF;
+   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+   border-radius: 8px;
+}
+.testimonial .reviews .single-review p{
+   margin: 0 0 10px 0;
+}
+.testimonial .reviews .single-review .user{
+   display: flex;
+   align-items: center;
+}
+.testimonial .reviews .single-review .user img{
+   width: 80px;
+   height: 80px;
+   margin-right: 20px;
+   object-fit: cover;
+   border-radius: 50%;
+}
+.testimonial .reviews .single-review .user .stars{
+   margin-bottom: 0;
+   font-size: 18px;
+   color: var(--color-primary);
+}
+/* Testimonial */
+
 /* Footer */
 footer p{
    background-color: var(--color-secondary);
